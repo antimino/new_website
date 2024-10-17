@@ -48,4 +48,6 @@ class Database {
 
     // Metodo per chiudere la connessione
     public function close() {
-        $this->conn
+        $this->conn->close();
+    }
+}
